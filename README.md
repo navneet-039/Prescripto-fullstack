@@ -6,43 +6,52 @@ Prescripto is a full-stack web application for booking doctor appointments and m
 
 ## Live Links
 
-- Frontend (Users): https://prescripto-fullstack-frontend-47b3.onrender.com  
-- Admin Panel: https://prescripto-fullstack-admin.onrender.com  
+- Frontend (Patients): https://prescripto-fullstack-frontend-47b3.onrender.com  
+- Admin & Doctor Panel: https://prescripto-fullstack-admin.onrender.com  
 - Backend API: https://prescripto-fullstack-backend.onrender.com
 
 ---
 
-## Admin Login (Demo)
+## Demo Credentials
 
-Use the following credentials to access the admin panel:
+### Admin Login
+- Email: navneet.889035@gmail.com  
+- Password: navneet@039
 
-- **Email**: navneet.889035@gmail.com  
-- **Password**: navneet@039
+### Doctor Login (Access via same link as Admin)
+- Email: emilylarson@gmail.com  
+- Password: emilylarson@123
 
-## DOCTOR LOGIN(DEMO)
-DOCTOR EMAIL ID DEMO
-**EMAIL**:emilylarson@gmail.com
-**PASSWORD**:emilylarson@123
+> Both Admin and Doctor login use the same panel link: https://prescripto-fullstack-admin.onrender.com
+
 ---
 
 ## Features
 
 - Patient and Doctor login/signup
+- Admin and Doctor share a unified panel (role-based access)
+- JWT-based authentication
 - Admin can manage doctors and appointments
-- Patients can book appointments 
-- Basic payment integration Razorpay
-- Built using the MERN stack (MongoDB, Express, React, Node.js)
+- Doctors can view appointments and manage availability
+- Patients can search and book doctor appointments
+- Razorpay payment integration
+- Admin dashboard with basic analytics
 
 ---
 
 ## Tech Stack
 
-- React.js (frontend)
-- Node.js + Express (backend)
-- MongoDB (database)
-- JWT for authentication
-- Render for deployment
+- Frontend: React.js
+- Backend: Node.js with Express
+- Database: MongoDB
+- Authentication: JWT
+- Deployment: Render
 
 ---
 
+## Notes
+
+- Admin and Doctor dashboards are role-based under a shared route
+- Patients access a separate frontend
+- All roles are authenticated using JWT
 
