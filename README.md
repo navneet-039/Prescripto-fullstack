@@ -18,24 +18,28 @@ Prescripto is a full-stack web application for booking doctor appointments and m
 - Email: navneet.889035@gmail.com  
 - Password: navneet@039
 
-### Doctor Login (Access via same link as Admin)
+### Doctor Login (access via admin panel link)
 - Email: emilylarson@gmail.com  
 - Password: emilylarson@123
 
-> Both Admin and Doctor login use the same panel link: https://prescripto-fullstack-admin.onrender.com
+### User/Patient Login
+- Email: user1@gmail.com  
+- Password: 12345678
+
+> Admin and Doctor share a common panel at: https://prescripto-fullstack-admin.onrender.com  
+> Patients access the user frontend at: https://prescripto-fullstack-frontend-47b3.onrender.com
 
 ---
 
 ## Features
 
-- Patient and Doctor login/signup
-- Admin and Doctor share a unified panel (role-based access)
-- JWT-based authentication
-- Admin can manage doctors and appointments
-- Doctors can view appointments and manage availability
-- Patients can search and book doctor appointments
-- Razorpay payment integration
-- Admin dashboard with basic analytics
+- Patient, Doctor, and Admin login/signup
+- JWT-based authentication and role-based routing
+- Admin can manage doctors and view appointments
+- Doctors can manage their availability and appointments
+- Patients can view doctors and book appointments
+- Razorpay integration for appointment payments
+- Admin dashboard showing key metrics and recent activity
 
 ---
 
@@ -44,14 +48,14 @@ Prescripto is a full-stack web application for booking doctor appointments and m
 - Frontend: React.js
 - Backend: Node.js with Express
 - Database: MongoDB
-- Authentication: JWT
+- Authentication: JWT (JSON Web Tokens)
 - Deployment: Render
 
 ---
 
 ## Notes
 
-- Admin and Doctor dashboards are role-based under a shared route
-- Patients access a separate frontend
-- All roles are authenticated using JWT
+- Admin must approve doctors before they can receive appointments
+- Doctors and admins use the same panel but have role-based views
+- Patients use a separate frontend for booking and managing appointments
 
