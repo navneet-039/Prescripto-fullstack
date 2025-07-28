@@ -19,6 +19,10 @@ Use the following credentials to access the admin panel:
 - **Email**: navneet.889035@gmail.com  
 - **Password**: navneet@039
 
+## DOCTOR LOGIN(DEMO)
+DOCTOR EMAIL ID DEMO
+**EMAIL**:emilylarson@gmail.com
+**PASSWORD**:emilylarson@123
 ---
 
 ## Features
